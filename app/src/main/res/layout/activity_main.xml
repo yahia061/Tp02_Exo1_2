@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:autofillHints="#b04343"
+    android:background="#4769f3"
+    android:backgroundTint="@android:color/holo_blue_dark"
+    android:visibility="visible"
+    tools:context="com.example.yaya.tp2.MainActivity">
+
+    <Button
+        android:id="@+id/mybottun"
+        android:layout_width="199dp"
+        android:layout_height="77dp"
+        android:layout_marginBottom="48dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Valider"
+        android:textColor="#41dec4"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mytext"
+        app:layout_constraintVertical_bias="0.909" />
+
+    <TextView
+        android:id="@+id/mytext"
+        android:layout_width="285dp"
+        android:layout_height="111dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="60dp"
+        android:text="Bienvenue"
+        android:textColor="#26eec0"
+        android:textSize="60sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
